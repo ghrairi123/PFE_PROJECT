@@ -1,0 +1,118 @@
+.app-calendar {
+  margin: 0 auto;
+  max-width: 100%;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.downloader {
+  width: 500px;
+  min-height: 128px;
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  max-height: 700px;
+  overflow-y: auto;
+}
+.downloader .card-header {
+  color: #fff;
+  background-color: rgb(93 11 11 / 92%);
+}
+.downloader .card .list-group {
+  max-height: 300px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.pagination {
+  margin: 15px auto;
+  display: flex;
+  list-style: none;
+  outline: none;
+  float: right;
+}
+.pagination > .active > a {
+  background-color: #47ccde;
+  border-color: #47ccde;
+  color: #fff;
+}
+.pagination > li > a {
+  border: 1px solid #47ccde;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #47ccde;
+  border-color: #47ccde;
+  outline: none;
+}
+.pagination > li > a,
+.pagination > li > span {
+  color: #47ccde;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-radius: unset;
+}
+.card {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #032055;
+  background-clip: border-box;
+  border: 0 solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1rem;
+}
+
+.gutters-sm {
+  margin-right: -8px;
+  margin-left: -8px;
+}
+
+.gutters-sm > .col,
+.gutters-sm > [class*="col-"] {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.mb-3,
+.my-3 {
+  margin-bottom: 1rem !important;
+}
+
+.bg-gray-300 {
+  background-color: #032055;
+}
+.h-100 {
+  height: 100% !important;
+}
+.shadow-none {
+  box-shadow: none !important;
+}
